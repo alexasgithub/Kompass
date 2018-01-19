@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_basic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.khalessi.sensorentest.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@color/background_text"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/notiz"
+            style="@style/textViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:text="@string/beschleunigungssensor" />
+
+
+        <TextView
+            android:id="@+id/tvSensorXVal"
+            style="@style/textViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/x_value_changed" />
+
+        <TextView
+            android:id="@+id/tvSensorYVal"
+            style="@style/textViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/y_value_changed" />
+
+        <TextView
+            android:id="@+id/tvSensorZVal"
+            style="@style/textViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/z_value_changed" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/notizZwei"
+        style="@style/textViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@color/background_text"
+        android:gravity="center_horizontal"
+        android:text="@string/wenn_du_mich_sch_ttelst_werde_ich_rot" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/angle"
+            style="@style/textViewStyle"
+            android:background="@color/transparentTextBackground"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textAlignment="viewEnd"
+            android:layout_marginLeft="30sp"
+
+            android:gravity="center_horizontal"
+            android:text="@string/kompass" />
+
+        <ImageView
+            android:id="@+id/imageViewCompass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:src="@drawable/kompass" />
+    </LinearLayout>
+
+</LinearLayout>
+

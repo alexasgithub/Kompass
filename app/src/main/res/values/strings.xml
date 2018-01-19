@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Sensoren-Ausleseapplikation</string>
+    <string name="beschleunigungssensor">Beschleunigungssensor: </string>
+    <string name="x_value_changed">X-Wert verändert</string>
+    <string name="z_value_changed">Z-Wert verändert</string>
+    <string name="wenn_du_mich_sch_ttelst_werde_ich_rot">Wenn du mich schüttelst, werde ich rot!</string>
+    <string name="kompass">Kompass</string>
+    <string name="y_value_changed">Y-Wert verändert</string>
 </resources>

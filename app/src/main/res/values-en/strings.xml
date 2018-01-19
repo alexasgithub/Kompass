@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sensoren-Ausleseapplikation</string>
+    <string name="beschleunigungssensor">Acceleration sensor:</string>
+    <string name="x_value_changed">X Value changed</string>
+    <string name="y_value_changed">Y Value changed</string>
+    <string name="z_value_changed">Z Value changed</string>
+    <string name="wenn_du_mich_sch_ttelst_werde_ich_rot">Shake me to change my background color!</string>
+    <string name="kompass">compass</string>
+</resources>
